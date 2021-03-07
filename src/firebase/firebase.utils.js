@@ -50,6 +50,7 @@ const config = {
       accumulator[collection.title.toLowerCase()] = collection;
       return accumulator;
     } , {})
+    console.log(transformedCollection);
   } 
 
   // export const addCollectionAndDocuments = async (collectionKey , objectsToAdd) => {
