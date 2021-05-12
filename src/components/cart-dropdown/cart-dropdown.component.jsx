@@ -1,5 +1,4 @@
 import React from 'react'
-// import './cart-dropdown.styles.scss';
 import {connect} from 'react-redux';
 import {withRouter} from 'react-router-dom'
 import CartItem from '../cart-item/cart-item.component';
